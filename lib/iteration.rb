@@ -29,7 +29,7 @@ def find_greater_pair(src)
   i = 0
 
   until i == src.length do
-    
+
     if src[i][0] > src[i][1]
       greater_of_pairs.push(src[i][0])
     else
