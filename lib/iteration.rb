@@ -26,11 +26,10 @@ def find_greater_pair(src)
   # that are in the inner Arrays
 
   greater_of_pairs = []
-  #temp_array = (src[0]).sort
   i = 0
- # for each array in src find the biggest number using sort, extract that element and push into greater_of_pairs
 
   until i == src.length do
+    
     if src[i][0] > src[i][1]
       greater_of_pairs.push(src[i][0])
     else
@@ -38,8 +37,7 @@ def find_greater_pair(src)
     end
 
     i+=1
-  #temp_array.push(src[i].sort)
-  #greater_of_pairs.push(temp_array[i][0])
+
   end
 
   p greater_of_pairs
