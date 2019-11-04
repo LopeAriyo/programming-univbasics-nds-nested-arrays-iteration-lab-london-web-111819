@@ -42,8 +42,7 @@ def find_greater_pair(src)
   #greater_of_pairs.push(temp_array[i][0])
   end
 
-  p temp_array
-  #p greater_of_pairs
+  p greater_of_pairs
 
 
 end
