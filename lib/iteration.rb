@@ -27,12 +27,13 @@ def find_greater_pair(src)
 
   greater_of_pairs = []
   temp_array = (src[0]).sort
-
+  i = 0
  # for each array in src find the biggest number using sort, extract that element and push into greater_of_pairs
 
-  #temp_array.push(src[0].sort)
-  #temp_array.push(src[1].sort)
-
+  until i == src.lenth do
+  #temp_array.push(src[i].sort)
+  #greater_of_pairs.push(temp_array[i][0])
+  end
 
   p temp_array
   #p greater_of_pairs
