@@ -69,7 +69,7 @@ def total_even_pairs(src)
 
   end
 
-  p greater_of_pairs
+  p even_pairs
 
 
 p src
