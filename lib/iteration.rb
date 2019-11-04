@@ -58,7 +58,7 @@ def total_even_pairs(src)
 
   even_pairs = []
   i = 0
-  total = 0 
+  total = 0
 
   until i == src.length do
 
