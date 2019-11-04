@@ -54,6 +54,23 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
 
+ #find all the even pairs and extract each number and add to the total of even pairs
+
+  even_pairs = []
+  i = 0
+
+  until i == src.length do
+
+    if src[i][0] % 2 == 0 &&  src[i][1] % 2 == 0
+      even_pairs.push(src[i])
+    end
+
+    i+=1
+
+  end
+
+  p greater_of_pairs
+
 
 p src
 
