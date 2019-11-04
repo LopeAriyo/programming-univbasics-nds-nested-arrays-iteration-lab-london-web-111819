@@ -58,17 +58,19 @@ def total_even_pairs(src)
 
   even_pairs = []
   i = 0
+  total = 0 
 
   until i == src.length do
 
     if src[i][0] % 2 == 0 && src[i][1] % 2 == 0
       even_pairs.push(src[i])
+      total +=  (src[i][0] + src[i][1])
     end
 
    i+=1
 
   end
 
-  p even_pairs
+  p total
 
 end
